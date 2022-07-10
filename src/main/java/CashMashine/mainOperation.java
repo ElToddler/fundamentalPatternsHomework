@@ -9,8 +9,7 @@ public class mainOperation {
     cashMashine.setBank(new hryvna());
     cashMashine.addMoney();
 
-    cashMashine.setBank(new dollar());
+    cashMashine.setBank(new euro());
     cashMashine.transferMoney();
-
     }
 }
